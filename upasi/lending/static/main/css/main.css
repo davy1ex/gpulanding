@@ -1,8 +1,10 @@
-body {
+/* body {
     background-image: url("../img/img.png");
-}
+} */
 main{
-    color: #fa6c07;
+    color: black;
+    width: 90%;
+    margin: auto;
 }
 aside img {
     margin-top: 30px;
@@ -13,19 +15,39 @@ aside img {
 }
 
 h1 {
+    color: orange;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 50px;
     font-size: 60px;
-
+    font-family: YS Text, Helvetica, Arial, sans-serif;
+    line-height: 94px;
+    font-weight: 600;
+}
+h2 {
+    color: orange;
 }
 
 .description {
+    text-align: center;
     padding-top: 40px;
+    font-size: 30px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.assemblies {
+    text-align: justify;
+    padding: 40px 0;
     font-size: 32px;
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
 }
+.assemblies_child {
+    font-size: 25px;
+}
+
+
 
 .nvidia img {
     max-width: 700px;
@@ -35,13 +57,38 @@ h1 {
     margin: 0 auto;
 }
 
-.assemblies {
-    padding-top: 40px;
-    font-size: 32px;
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
+
+.params {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.param_column1 {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+
+.param_colum_child1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.param_title {
+    font-size: 23px;
+    color: orange;
+}
+
+.param_value {
+    font-size: 28px;
+}
+
+
+
 .slider {
     position: relative;
     max-width: 600px;
@@ -60,8 +107,11 @@ h1 {
     max-height: 100%;
 }
 
-.slider img.slick-active {
+/* .slider img.slick-active {
     opacity: 1;
+} */
+.slider:hover .slick-arrow {
+    display: block;
 }
 
 .slick-prev,
@@ -90,6 +140,7 @@ h1 {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
 }
 
 .textbox-container {
@@ -100,6 +151,7 @@ h1 {
 }
 
 .textbox {
+    margin: auto;
     margin-top: 30px;
     font-size: 20px;
     background-color: #f2f2f2;
@@ -108,8 +160,14 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     flex-basis: 30%;
 }
-form {
-    margin-left: 32%;
-    width: 500px;
-    margin-top: 50px;
+
+.textbox p {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+.container_button {
+    margin: auto;
 }

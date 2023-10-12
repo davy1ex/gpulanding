@@ -16,52 +16,168 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
 </head>
 <body>
-    <aside>
+    <!-- <aside>
         <img src="{% static 'main/img/logo.jpg' %}" alt="Логотип">
-    </aside>
+    </aside> -->
     <main>
         <h1>
-            Упаси 1.0
+            Мощное  вычислительное решение для ваших задач
         </h1>
-            <div class="description">
-                Видеокарта A100 GPU от NVIDIA - это ускоритель для вычислительных задач, который обеспечивает непревзойденное ускорение нагрузок ИИ, анализа данных и HPC для решения самых сложных вычислительных задач. Она основана на архитектуре NVIDIA Ampere и содержит 6912 ядер CUDA и 40 Гб оперативной памяти HBM2 12. Видеокарта A100 GPU обладает самой быстрой в мире пропускной способностью памяти (более 2 ТБ/с), что позволяет работать с самыми крупными моделями и наборами данных.
-            </div>
+        <div class="description">
+            Для эффективного решения сложных задач в области анализа данных и искусственного интеллекта,
+            мы предлагаем мощные вычислительные решения на базе нашего суперкомпьютера. 
+            
+            
+        </div>
+
+        <div class="description">
+            Благодаря использованию передовых технологий и компонентов, таких как двух 16-ядерных 
+            процессоров Intel Xeon Gold 6326 с частотой 2.9-3.5GHz и графического процессора 
+            Nvidia A100 (Ampere) с 80GB HBM2E, наш суперкомпьютер обеспечивает высокую 
+            производительность и надежность для решения ваших вычислительных задач.
+        </div>
         <div class="nvidia">
-            <img src="{% static 'main/img/nvidia.png' %}" alt="Видеокарта">
+            <img src="{% static 'main/img/blockdiagram.jpg' %}" alt="Видеокарта">
         </div>
         <div class="assemblies">
-            Сборки на базе видеокарты A100 GPU от NVIDIA могут быть использованы для решения самых сложных вычислительных задач, таких как анализ данных, HPC и ИИ. Мы предлагаем доступ к конфигурации g2.2 (56 vCPU, 2 GPU A100). Компания Yandex предлагает аналогичное решение по цене 400 тысяч рублей в месяц.
+            Мы предлагаем гибкие тарифы и возможность выбора конфигурации, чтобы обеспечить оптимальное соотношение цена/производительность для ваших проектов. С нашим суперкомпьютером вы получите необходимые ресурсы для решения самых амбициозных задач в области искусственного интеллекта и анализа данных.
         </div>
+        
+
+        <div class="params">
+            <div class="param_column1">
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Платформа
+                    </div>
+                    <div class="param_value">
+                        4U, 2xXeon Gen3 LGA4189, 24x2.5"
+                    </div>
+                </div>
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Процессор
+                    </div>
+                    <div class="param_value">
+                        2 x 16-ядерный Intel Xeon Gold 6326 2.9-3.5GHz
+                    </div>
+                </div>
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Графический процессор
+                    </div>
+                    <div class="param_value">
+                        Nvidia A100 (Ampere) 80GB HBM2E
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="param_column1">
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Оперативная память
+                    </div>
+                    <div class="param_value">
+                        8 x 64GB DDR4 3200Mhz ECC REG
+                    </div>
+                </div>
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Raid-контроллер
+                    </div>
+                    <div class="param_value">
+                        SAS/SATA PCIE 8P 12GB/S 1GB 9361-8i LSI
+                    </div>
+                </div>
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Твердотельный накопитель
+                    </div>
+                    <div class="param_value">
+                        5 x 3.84TB PM1643a Enteprsie SSD SAS 2.5"
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="param_column1">
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Платформа
+                    </div>
+                    <div class="param_value">
+                        4U, 2xXeon Gen3 LGA4189, 24x2.5"
+                    </div>
+                </div>
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Платформа
+                    </div>
+                    <div class="param_value">
+                        4U, 2xXeon Gen3 LGA4189, 24x2.5"
+                    </div>
+                </div>
+                <div class="param_colum_child1">
+                    <div class="param_title">
+                        Платформа
+                    </div>
+                    <div class="param_value">
+                        4U, 2xXeon Gen3 LGA4189, 24x2.5"
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+
+
+
         <div class="slider">
             <img src="{% static 'main/img/slide1.png' %}" alt="Изображение 1">
             <img src="{% static 'main/img/slide2.png' %}" alt="Изображение 2">
-            <img src="{% static 'main/img/slide3.png' %}" alt="Изображение 3">
+            <img src="{% static 'main/img/nvidia.png' %}" alt="Изображение 3">
         </div>
         <div class="support">
-            В поддержку отечественных разработчиков, мы готовы предложить доступ к нашим мощностям за цену 250 тысяч рублей, при этом доступен ряд опций:
+            В поддержку отечественных разработчиков, мы готовы предложить доступ за цену 250 тысяч рублей, 
+            при этом доступен ряд опций:
         </div>
         <div class="textbox-container">
             <div class="textbox">
-                <p>- Доступ к части вычислительных мощностей с пропорциональным уменьшением стоимости</p>
+                <p>Доступ к части вычислительных мощностей с пропорциональным уменьшением стоимости</p>
             </div>
             <div class="textbox">
-                <p>- Вам предоставляется право выбрать самим время аренды конфигурации, если хотите оформить аренду на месяц, на неделю, на день или на час.</p>
+                <p>Вам предоставляется право выбрать самим время аренды конфигурации, если хотите оформить аренду на месяц, на неделю, на день или на час</p>
             </div>
             <div class="textbox">
-                <p>- В зависимости от нужды, можем предоставить различные степени доступа к конфигурации</p>
+                <p>В зависимости от нужды, можем предоставить различные степени доступа к конфигурации</p>
             </div>
         </div>
         <div class="assemblies">
-             В зависимости от нужды, можем предоставить различные степени доступа к конфигурации
+            <h2>Предлагаемые доступы к конфигурации:</h2>
+            <div class="assemblies_child">
+                1) Доступ к виртуальной машине<br>
+                2) Доступ к управлению виртуальной машиной<br>
+                3) Доступ напрямую к аппаратной части сборки
+            </div>
         </div>
-        <div class="assemblies">
-            1) Доступ к виртуальной машине<br>
-            2) Доступ к управлению виртуальной машиной<br>
-            3) Доступ напрямую к аппаратной части сборки
-        </div>
+        
         <div class="assemblies">
             Мы молодой сервис, готовый предоставить скидку нашим первым заказчикам.
             Для получения скидки вам необходимо оставить заявку.
+        </div>
+        
+        <div class="container_button">
+            <button id="contactButton" style="background-color:orange" class="btn btn-success" type="submit">Связаться с нами</button>
+            <div id="contactForm" class="hidden">
+                <form method="post">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                    <input type="submit" value="Отправить">
+
+                </form>
+            </div>
         </div>
 
     </main>
@@ -74,20 +190,20 @@
                 dots: true,
                 arrows: true,
                 infinite: true,
-                slidesToShow: 1,
+                // slidesToShow: 1,
                 slidesToScroll: 1,
                 prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
                 nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>'
             });
         });
     </script>
-     <form method="post">
-            {% csrf_token %}
-            {{ form.name}}<br>
-            {{ form.email}}<br>
-            {{ form.comment}}<br>
-            <span>{{ error }}</span>
-            <button class="btn btn-success" type="submit">Отправить</button>
-        </form>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    $('#contactButton').click(function(){
+        $('#contactForm').toggleClass('hidden');
+    });
+});
+    </script>
+    
 </body>
 </html>
