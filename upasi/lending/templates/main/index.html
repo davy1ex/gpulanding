@@ -170,13 +170,14 @@
         
         <div class="container_button">
             <button id="contactButton" style="background-color:orange" class="btn btn-success" type="submit">Связаться с нами</button>
-            <div id="contactForm" class="hidden">
-                <form method="post">
-                    {% csrf_token %}
-                    {{ form.as_p }}
-                    <input type="submit" value="Отправить">
-
-                </form>
+            <div class="form-container">
+                <div id="contactForm" class="hidden">
+                    <form method="post" class="form-content">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
             </div>
         </div>
 

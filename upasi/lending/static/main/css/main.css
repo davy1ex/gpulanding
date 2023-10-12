@@ -169,5 +169,36 @@ h2 {
     display: none;
 }
 .container_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
+    margin: 0 0 40px 0;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; Это устанавливает высоту контейнера равной высоте видимой области браузера */
+}
+
+#contactForm {
+    background-color: #ffffff; /* Это устанавливает белый фон для формы. Вы можете изменить это на другой цвет или убрать, если не требуется */
+    padding: 20px; /* Это добавляет отступ вокруг содержимого формы */
+    border-radius: 8px; /* Это делает углы формы скругленными */
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Это добавляет вертикальный отступ между элементами формы */
+    align-items: flex-start; /* Это выравнивает поля ввода по левому краю */
+}
+
+.form-content p {
+    width: 500px;
+    margin: 0; /* Это убирает стандартные отступы вокруг тегов <p>, которые создаются {{ form.as_p }} */
+}
+
+.form-content input {
+    float: right    ;    
 }
